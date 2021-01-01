@@ -12,9 +12,9 @@ The website opens up as a log-in page where email and password can be entered us
 The entered information is validated as below using javascript with regex functionality
   1. email and password is not blank
   2. email has character "@" to be considered valid 
-  3. not less than 8 characters
-  4. starts with a letter
-  5. length is between 8~14 characters
+  3. password is not less than 8 characters
+  4. password cannot be "password"
+  5. password is alphanumeric
 
 If triggered,
 Error message is shown by modifying the innerText and padding style of <div> dedicated for error message. 
